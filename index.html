@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="sliderApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Slider</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body ng-controller="sliderAppCtrl">
+    <div class="container">
+        <div class="slider">
+            <div><img src="https://picsum.photos/400/?image=1064"></div>
+            <div><img src="https://picsum.photos/400/?image=1052"></div>
+            <div><img src="https://picsum.photos/400/?image=1053"></div>
+            <div><img src="https://picsum.photos/400/?image=1045"></div>
+            <div><img src="https://picsum.photos/400/?image=1049"></div>
+            <div><img src="https://picsum.photos/400/?image=1031"></div>
+            <div><img src="https://picsum.photos/400/?image=1021"></div>
+            <div><img src="https://picsum.photos/400/?image=1019"></div>
+            <div><img src="https://picsum.photos/400/?image=983"></div>
+            <div><img src="https://picsum.photos/400/?image=972"></div>
+        </div>
+        <div class="currSlide">Current slide: {{currNumber}}</div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
