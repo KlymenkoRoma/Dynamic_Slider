@@ -4,4 +4,4 @@
 # IN TERMINAL:
 3. npm init
 4. npm i slider, express
-5. run server: http://localhost:8080/
+5. run server (http://localhost:8080/): node server.js
